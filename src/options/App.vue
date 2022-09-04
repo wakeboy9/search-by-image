@@ -12,6 +12,7 @@
         v-model="options.engines"
         item-key="id"
         :delay="120"
+        :delay-on-touch-only="true"
       >
         <template #item="{element}">
           <div class="option">
